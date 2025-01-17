@@ -1,0 +1,1 @@
+javascript: (function() { if (window.location.hostname === 'claude.ai' && (window.location.pathname.startsWith('/chat/') || window.location.pathname.startsWith('/new'))) { document.querySelector('[data-testid="menu-sidebar"]').remove(); } return void 0; })();
